@@ -1,0 +1,159 @@
+@charset "utf-8";
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display+SC&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=IBM+Plex+Serif:wght@100&display=swap');
+/* CSS Document */ 
+.Pink{
+	color: #FF8DB5;
+}
+.Golden{
+	color: #D5AF41;
+}
+.Yellow{
+	color:#FFF951;
+}
+.White{
+	color: white;
+}
+.picture5{
+	background-color: #000000;
+}
+.picture6{
+	background-color:#000000;
+}
+.text123{
+	font-size: 28px;
+	position: absolute;
+}
+.text1234{
+	font-size: 20px;
+	position: absolute;
+	font-family: 'IBM Plex Serif', serif;
+}
+.textevent1{
+	font-size: 28px;
+	position: absolute;
+	padding-left: 850px;
+	padding-top: 150px;
+}
+.textevent2{
+	font-size: 20px;
+	position: absolute;
+	font-family: 'IBM Plex Serif', serif;
+	padding-left: 850px;
+	padding-top: 300px;
+}
+.textorder{
+	font-size: 40px;
+	position: absolute;
+	padding-top: 80px;
+}
+.logo img{
+	height: 60px;
+}
+header{
+	background: black;
+	position: absolute;
+	z-index: 10;
+	width: 100%;
+}
+.cangiua{
+	text-align: center;
+}
+.menu{
+	display: flex;
+}
+#wrapper{
+	background: black;
+}
+.menu a{
+	font-size: 17px;
+	margin: 0 24px;
+	margin-top: 20px;
+	color:#FF9DBB;
+	text-decoration: none;
+	font-weight: 600;
+	display: flex;
+}
+.a:hover{
+	color: #D5AF41;
+}
+.picture5{
+	padding-top: 35px;
+}
+.cta{
+	margin-top: 20px;
+}
+.Gold:hover{
+	filter: blur(2px)
+}
+.banner{
+	height: 1700px;
+	padding: 100px 0;
+	background-size: 80%;
+	background: url("../IMG+VIDEO/E9sUXXfVUAE2TWV.jpg");
+	background-repeat: no-repeat;
+	background-position: center;	
+}
+.ctaa{
+	padding: 80px 0;
+}
+.text-right{
+	text-align: right;
+}
+.orderpicture{
+	padding-top: 250px;
+}
+.email{
+	width: 100%;
+	height: 35px;
+	border-radius: 20px;
+}
+.mess{
+	width: 100%;
+	height: 85px;
+	border-radius: 20px;
+}
+.submit{
+	padding: 10px 20px;
+	background-color: #FF8DB5;
+	border-radius: 30px;
+	text-transform: uppercase;
+	font-weight: 400;
+}
+.footer{
+	padding: 80px;
+	font-size: 30px;
+}
+.footer a{
+	color: #FF5F97;
+}
+.submit123{
+	padding: 60px;
+	background-color: #000000;
+}
+body{
+	cursor: url("../IMG+VIDEO/Blackpink Lightstick.cur"), auto;
+}
+
+a:hover{
+	cursor: url("../IMG+VIDEO/Blackpink Lightstick.cur"), auto;
+}
+.back-to-top{
+	position: fixed;
+	right: 20px;
+	bottom: 20px;
+	z-index: 10000;
+	font-size: 25pt;
+	width: 40px;
+	height: 40px;
+	display: flex;
+	align-self: center;
+	justify-content: center;
+	border: 1px solid white;
+	border-radius: 50%;
+	line-height: 40px;
+}
+.back-to-top a{
+	color:#FFA5BE;
+	display: block;
+}
